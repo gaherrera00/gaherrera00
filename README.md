@@ -1,8 +1,9 @@
 # Olá, eu sou o Gabriel Herrera Demarchi 👋
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=crop&h=250&w=100%" alt="Banner">
+  <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=crop&h=250&w=870" alt="Banner" width="100%">
 </p>
+
 
 
 
