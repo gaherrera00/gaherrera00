@@ -1,6 +1,9 @@
 # Olá, eu sou o Gabriel Herrera Demarchi 👋
 
-![Banner](https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870)
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="Banner" width="870" height="250">
+</p>
+
 
 💻 **Desenvolvedor Full-Stack** | Node.js, React, Next.js  
 🚀 Apaixonado por projetos práticos e open-source  
