@@ -8,9 +8,7 @@
 
 
 💻 **Desenvolvedor Full-Stack** | Node.js, React, Next.js  
-🚀 Apaixonado por projetos práticos e open-source  
-🌱 Atualmente aprendendo **Golang** e **GraphQL**  
-
+🚀 Apaixonado por projetos práticos
 ---
 
 ### 🛠 Tecnologias & Ferramentas
