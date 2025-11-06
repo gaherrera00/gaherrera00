@@ -1,70 +1,74 @@
-# 👋 Gabriel Herrera Demarchi  
+# 👋 Gabriel Herrera Demarchi
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=crop&h=250&w=870" alt="Banner" width="100%">
+  <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=crop&h=230&w=900" alt="Banner tecnológico" width="100%">
 </p>
 
 <p align="center">
-  💻 Desenvolvedor Full-Stack  
-  <br>⚙️ Node.js • React • Next.js  
-  <br>🚀 Projetos práticos e focados em resultado
-</p>
-
----
-
-### 🛠 Tecnologias
-<p align="center">
-  <img src="https://img.shields.io/badge/JS-000?style=flat&logo=javascript" />
-  <img src="https://img.shields.io/badge/TS-000?style=flat&logo=typescript" />
-  <img src="https://img.shields.io/badge/Node-000?style=flat&logo=node.js" />
-  <img src="https://img.shields.io/badge/React-000?style=flat&logo=react" />
-  <img src="https://img.shields.io/badge/Next-000?style=flat&logo=next.js" />
-  <img src="https://img.shields.io/badge/Tailwind-000?style=flat&logo=tailwind-css" />
-  <img src="https://img.shields.io/badge/MySQL-000?style=flat&logo=mysql" />
-  <img src="https://img.shields.io/badge/Java-000?style=flat&logo=java" />
-  <img src="https://img.shields.io/badge/PHP-000?style=flat&logo=php" />
-  <img src="https://img.shields.io/badge/Python-000?style=flat&logo=python" />
-  <img src="https://img.shields.io/badge/Express-000?style=flat&logo=express" />
-  <img src="https://img.shields.io/badge/Git-000?style=flat&logo=git" />
-  <img src="https://img.shields.io/badge/AWS-000?style=flat&logo=amazon-aws" />
-  <img src="https://img.shields.io/badge/Postman-000?style=flat&logo=postman" />
-  <img src="https://img.shields.io/badge/Figma-000?style=flat&logo=figma" />
+  💻 <strong>Desenvolvedor Full-Stack</strong>  
+  <br>🔹 Node.js • React • Next.js • UX Oriented  
+  <br>🎯 Foco em soluções simples, rápidas e funcionais
 </p>
 
 ---
 
-### 🌟 Projetos
-| Projeto | Descrição | Link |
-|:--|:--|:--|
-| 🧠 Projeto Integrador | Sistema full-stack (Next.js + Node.js) | [Ver no GitHub](https://github.com/gaherrera00/GHG-Barbearia-projeto-barbearia-) |
-| 📇 Agenda de Contatos | Gerenciador de tarefas em Node.js | [Ver no GitHub](https://github.com/gaherrera00/agenda-contatos-node) |
-| 🧰 Assistência Técnica | Sistema de soluções e suporte técnico | [Ver no GitHub](https://github.com/gaherrera00/zelus-assistencia-tecnica) |
+## 🧩 Stack de Desenvolvimento
+
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-111?style=flat-square&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/Node.js-111?style=flat-square&logo=node.js&logoColor=68A063" />
+  <img src="https://img.shields.io/badge/React-111?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-111?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-111?style=flat-square&logo=tailwind-css&logoColor=06B6D4" />
+  <img src="https://img.shields.io/badge/MySQL-111?style=flat-square&logo=mysql&logoColor=4479A1" />
+  <img src="https://img.shields.io/badge/Figma-111?style=flat-square&logo=figma&logoColor=F24E1E" />
+</div>
 
 ---
 
-### 📬 Contato
-<p align="center">
-  <a href="https://www.linkedin.com/in/gabriel-herrera-demarchi-532844338/">
-    <img src="https://img.shields.io/badge/LinkedIn-000?style=flat&logo=linkedin" />
-  </a>
+## 🌟 Projetos
+
+| Projeto | Descrição | Stack | Link |
+|:--|:--|:--|:--|
+| 🧠 **Projeto Integrador** | Sistema full-stack de barbearia com UX intuitiva | Next.js + Node.js | [GitHub](https://github.com/gaherrera00/GHG-Barbearia-projeto-barbearia-) |
+| 📇 **Agenda de Contatos** | CRUD limpo e funcional em linha de comando | Node.js | [GitHub](https://github.com/gaherrera00/agenda-contatos-node) |
+| 🧰 **Assistência Técnica** | Plataforma para reportes e soluções técnicas | React + Node.js | [GitHub](https://github.com/gaherrera00/zelus-assistencia-tecnica) |
+
+---
+
+## 📊 Estatísticas
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gaherrera00&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=aaaaaa&icon_color=06B6D4" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaherrera00&layout=compact&theme=transparent&hide_border=true&title_color=ffffff&text_color=aaaaaa" width="48%" />
+</div>
+
+---
+
+## 📫 Contato
+
+<div align="center">
   <a href="mailto:gabrielherrerademarchi@gmail.com">
-    <img src="https://img.shields.io/badge/Email-000?style=flat&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-111?style=flat-square&logo=gmail&logoColor=D14836" />
   </a>
-</p>
+  <a href="https://www.linkedin.com/in/gabriel-herrera-demarchi-532844338/">
+    <img src="https://img.shields.io/badge/LinkedIn-111?style=flat-square&logo=linkedin&logoColor=0077B5" />
+  </a>
+</div>
 
----
-
-### 📊 Estatísticas
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gaherrera00&show_icons=true&theme=transparent&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaherrera00&layout=compact&theme=transparent&hide_border=true" width="48%" />
+  <sub>Aberto a colaborações, freelas e novos desafios.</sub>
 </p>
 
 ---
 
-### ⚡ Sobre mim
-- 💡 Curioso e autodidata  
-- 🏗 Envolvido em projetos open-source  
-- 🎯 Foco em eficiência e aplicação real  
+## 🧠 Filosofia de Desenvolvimento
 
-<p align="center"><i>“Código limpo é código feliz.”</i></p>
+- 🎨 Design e código com propósito  
+- ⚡ Agilidade e clareza acima de complexidade  
+- 🧩 Usuário no centro da experiência  
+- 🔍 Melhorar continuamente  
+
+<p align="center">
+  <i>“Simplicidade é a sofisticação máxima.” — Leonardo da Vinci</i>
+</p>
