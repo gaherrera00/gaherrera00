@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Profissional</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SzlrxWriC3z6OVwK2q6l8YhHf00x1lV1b8aef4z4mj4lrwZqjvN0DgZZO0p5p5Q8b+6OZ8W9d3rP9xG3VY+nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">SeuNome.dev</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="btn-ghost" id="theme-toggle" aria-label="Alternar tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="menu-toggle" aria-label="Abrir menu mobile">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero glass reveal">
+            <div class="hero-text">
+                <p class="eyebrow">Disponível para estágio</p>
+                <h1>Olá, sou <span class="highlight">Seu Nome</span> — <span class="typing" data-text='["Desenvolvedor em formação","Criador de experiências web","Entusiasta de tecnologia"]'></span></h1>
+                <p class="subtitle">Busco uma oportunidade de estágio para crescer profissionalmente.</p>
+                <div class="cta-group">
+                    <a class="btn-primary" href="#projects">Ver Projetos</a>
+                    <a class="btn-secondary" href="#contact">Contato</a>
+                </div>
+                <div class="social-inline">
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="img/dev-placeholder.svg" alt="Foto do desenvolvedor" />
+                </div>
+                <div class="floating-card glass">
+                    <p>+15 Projetos pessoais</p>
+                    <p class="muted">Front-end & Back-end</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section glass reveal">
+            <div class="section-header">
+                <p class="eyebrow">Quem sou</p>
+                <h2>Sobre mim</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor em formação apaixonado por criar interfaces elegantes e experiências digitais centradas no usuário. Busco um estágio para evoluir minhas habilidades técnicas e colaborar em projetos que impactam positivamente pessoas e negócios.
+                    </p>
+                    <div class="pill-group">
+                        <span class="pill">Curioso</span>
+                        <span class="pill">Colaborativo</span>
+                        <span class="pill">Focado em resultados</span>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Habilidades</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar"><span data-level="90"></span></div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-bar"><span data-level="85"></span></div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-bar"><span data-level="80"></span></div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & GitHub</span>
+                        <div class="skill-bar"><span data-level="75"></span></div>
+                    </div>
+                    <div class="skill">
+                        <span>UI/UX</span>
+                        <div class="skill-bar"><span data-level="70"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section glass reveal">
+            <div class="section-header">
+                <p class="eyebrow">Portfólio</p>
+                <h2>Projetos em destaque</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/project1.svg" alt="Projeto 1" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard de Dados</h3>
+                        <p>Visualizações interativas com gráficos em tempo real para monitorar métricas.</p>
+                        <div class="tags">
+                            <span>React</span><span>D3.js</span><span>APIs</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="#">Ver Código</a>
+                            <a class="btn-primary" href="#">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/project2.svg" alt="Projeto 2" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Landing Page</h3>
+                        <p>Página promocional otimizada para conversão, com copywriting e SEO.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>GSAP</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="#">Ver Código</a>
+                            <a class="btn-primary" href="#">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/project3.svg" alt="Projeto 3" />
+                    </div>
+                    <div class="project-content">
+                        <h3>API de Tarefas</h3>
+                        <p>Back-end com autenticação JWT e documentação clara para desenvolvedores.</p>
+                        <div class="tags">
+                            <span>Node.js</span><span>Express</span><span>MongoDB</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="#">Ver Código</a>
+                            <a class="btn-primary" href="#">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/project4.svg" alt="Projeto 4" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Aplicativo de Hábitos</h3>
+                        <p>App mobile-first para criação e acompanhamento de hábitos diários.</p>
+                        <div class="tags">
+                            <span>Vue</span><span>Firebase</span><span>PWA</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="#">Ver Código</a>
+                            <a class="btn-primary" href="#">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/project5.svg" alt="Projeto 5" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Minimalista</h3>
+                        <p>Template elegante com animações suaves e foco em acessibilidade.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="#">Ver Código</a>
+                            <a class="btn-primary" href="#">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/project6.svg" alt="Projeto 6" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Assistente de Estudos</h3>
+                        <p>Ferramenta web para organizar materiais, prazos e rotinas de estudo.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Flask</span><span>SQL</span>
+                        </div>
+                        <div class="card-actions">
+                            <a class="btn-secondary" href="#">Ver Código</a>
+                            <a class="btn-primary" href="#">Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section glass reveal">
+            <div class="section-header">
+                <p class="eyebrow">Vamos conversar</p>
+                <h2>Contato</h2>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Fale sobre sua oportunidade" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar mensagem</button>
+                </form>
+                <div class="contact-info">
+                    <p>Estou aberto a conversar sobre vagas de estágio, projetos colaborativos ou oportunidades para crescer em tecnologia.</p>
+                    <div class="contact-cards">
+                        <div class="mini-card glass">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>email@seudominio.com</span>
+                        </div>
+                        <div class="mini-card glass">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Brasil · Remoto/Presencial</span>
+                        </div>
+                    </div>
+                    <div class="social-inline">
+                        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
