@@ -26,7 +26,7 @@ const projects = [
     image: "/project-restaurante.png",
   },
   {
-    title: "Lanche Mania API",
+    title: "Lanche Mania (Fork)",
     description:
       "API de gerenciamento de pedidos e catálogo de lanches desenvolvida em Java com Spring Boot. Inclui CRUD completo, camada de serviço estruturada, tratamento de exceções e integração com banco de dados. Ideal para estudos de arquitetura back-end em Java.",
     stack: ["Java", "Spring Boot", "Spring Data JPA", "H2/MySQL"],
