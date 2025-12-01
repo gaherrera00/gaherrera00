@@ -2,31 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Permite light e dark sem travar só em um deles */
 :root {
-  color-scheme: dark;
+  color-scheme: light dark;
 }
 
+/* Base do body – claro e escuro */
 body {
-  @apply antialiased;
+  @apply antialiased bg-white text-slate-900 dark:bg-[#0c1021] dark:text-slate-100;
 }
 
+/* Links com transição suave */
 a {
   @apply transition-colors duration-200;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
+/* Claro */
 ::-webkit-scrollbar-track {
+  background: #e5e7eb; /* tailwind zinc-200 */
+}
+
+/* Escuro */
+.dark ::-webkit-scrollbar-track {
   background: #0c1021;
 }
 
+/* Polegar */
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(135deg, #7c5dff, #22d3ee);
   border-radius: 9999px;
 }
 
+/* Seleção de texto */
 ::selection {
   background: rgba(124, 93, 255, 0.25);
+}
+
+/* Utilitário de glow nos cards / avatar */
+@layer utilities {
+  .shadow-glow {
+    box-shadow: 0 0 25px rgba(124, 93, 255, 0.25);
+  }
 }
