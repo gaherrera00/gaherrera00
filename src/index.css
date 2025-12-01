@@ -3,11 +3,19 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: light;
+}
+
+.dark {
   color-scheme: dark;
 }
 
 body {
-  @apply antialiased;
+  @apply antialiased bg-white text-slate-900 transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-dark text-slate-100;
 }
 
 a {
