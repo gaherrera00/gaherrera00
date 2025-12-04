@@ -339,21 +339,21 @@ export default function App() {
 
             {/* FOTO */}
             <div className="relative mt-6 md:mt-0">
-              <div className="relative overflow-hidden rounded-[40px] border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6 shadow-glow">
+              <div className="relative overflow-hidden rounded-[40px] border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6 shadow-glow max-w-xs sm:max-w-sm md:max-w-md mx-auto">
                 <img
                   src="/profile.png"
                   alt="Gabriel em frente ao computador"
-                  className="w-full rounded-2xl"
+                  className="w-full rounded-2xl scale-[0.92] sm:scale-[0.9] md:scale-[0.95] transform"
                 />
 
-                <div className="absolute right-6 top-6 rounded-2xl bg-black/70 px-4 py-3 text-sm text-slate-100">
+                <div className="absolute right-4 top-4 sm:right-6 sm:top-6 rounded-2xl bg-black/70 px-3 py-2 sm:px-4 sm:py-3 text-xs sm:text-sm text-slate-100">
                   <p className="font-semibold">
                     +{experienceYears} anos de código
                   </p>
                   <p className="text-slate-300">Full-stack & UX minded</p>
                 </div>
 
-                <div className="absolute -left-3 bottom-6 rounded-2xl bg-gradient-to-r from-primary/80 to-secondary/80 px-5 py-3 text-sm text-dark">
+                <div className="absolute left-2 sm:-left-3 bottom-4 sm:bottom-6 rounded-2xl bg-gradient-to-r from-primary/80 to-secondary/80 px-4 py-2 sm:px-5 sm:py-3 text-xs sm:text-sm text-dark">
                   <p className="font-semibold">15+ projetos pessoais</p>
                   <p className="text-black/70">Aprendizado contínuo</p>
                 </div>
