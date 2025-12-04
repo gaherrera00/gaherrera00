@@ -17,40 +17,13 @@ const skills = [
 
 const projects = [
   {
-    title: "Sistema Integrador Restaurante",
+    title: "Dulcis Veneris (Fork)",
     description:
-      "Aplicação PHP/MySQL com CRUD completo para gestão de dados de um restaurante, focada em organização e usabilidade.",
-    stack: ["PHP", "MySQL"],
-    code: "https://github.com/gaherrera00/sistema-integrador-restaurante",
-    demo: "https://github.com/gaherrera00/sistema-integrador-restaurante",
-    image: "/project-restaurante.png",
-  },
-  {
-    title: "Lanche Mania (Fork)",
-    description:
-      "API de gerenciamento de pedidos e catálogo de lanches desenvolvida em Java com Spring Boot. Inclui CRUD completo, camada de serviço estruturada, tratamento de exceções e integração com banco de dados. Ideal para estudos de arquitetura back-end em Java.",
-    stack: ["Java", "Spring Boot", "Spring Data JPA", "H2/MySQL"],
-    code: "https://github.com/gaherrera00/lanche-mania-api",
-    demo: "https://github.com/gaherrera00/lanche-mania-api",
-    image: "/project-lanche-mania.svg",
-  },
-  {
-    title: "G2 Barbearia",
-    description:
-      "Plataforma web para gerenciamento operacional de uma barbearia, com foco em serviços, agenda e experiência do cliente.",
-    stack: ["Next.js", "Tailwind", "Framer Motion"],
-    code: "https://github.com/gaherrera00/barbearia-g2-sistema",
-    demo: "https://barbearia-g2-sistema.vercel.app/",
-    image: "/project-barbearia.png",
-  },
-  {
-    title: "Zelus Assistência Técnica",
-    description:
-      "Site responsivo em React e Tailwind para uma assistência técnica, com foco em clareza das informações e contato rápido.",
-    stack: ["React", "Tailwind"],
-    code: "https://github.com/gaherrera00/zelus-assistencia-tecnica",
-    demo: "https://github.com/gaherrera00/zelus-assistencia-tecnica",
-    image: "/project-zelus.png",
+      "Fork de um projeto artístico voltado a uma chocolateria, explorando animações e experiência visual criativa.",
+    stack: ["JavaScript"],
+    code: "https://github.com/gaherrera00/dulcis.veneris",
+    demo: "https://github.com/gaherrera00/dulcis.veneris",
+    image: "/project-dulcis.png",
   },
   {
     title: "Doceria Jae",
@@ -62,13 +35,48 @@ const projects = [
     image: "/project-doceriajae.png",
   },
   {
-    title: "Dulcis Veneris (Fork)",
+    title: "Zelus Assistência Técnica",
     description:
-      "Fork de um projeto artístico voltado a uma chocolateria, explorando animações e experiência visual criativa.",
-    stack: ["JavaScript"],
-    code: "https://github.com/gaherrera00/dulcis.veneris",
-    demo: "https://github.com/gaherrera00/dulcis.veneris",
-    image: "/project-dulcis.png",
+      "Site responsivo em React e Tailwind para uma assistência técnica, com foco em clareza das informações e contato rápido.",
+    stack: ["React", "Tailwind"],
+    code: "https://github.com/gaherrera00/zelus-assistencia-tecnica",
+    demo: "https://github.com/gaherrera00/zelus-assistencia-tecnica",
+    image: "/project-zelus.png",
+  },
+  {
+    title: "Sistema de Reporte de Ocorrências Urbanas",
+    description:
+      "Plataforma web para registro e acompanhamento de problemas urbanos, permitindo descrição, foto e localização via geolocalização. Desenvolvido para facilitar a comunicação entre cidadãos e gestão pública.",
+    stack: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "REST API",
+      "JWT",
+      "AWS",
+    ],
+    code: "https://github.com/gaherrera00/sistema-denuncias-urbanas",
+    demo: "https://github.com/gaherrera00/sistema-denuncias-urbanas",
+    image: "/project-denuncias-urbanas.png",
+  },
+  {
+    title: "G2 Barbearia",
+    description:
+      "Plataforma web para gerenciamento operacional de uma barbearia, com foco em serviços, agenda e experiência do cliente.",
+    stack: ["Next.js", "Tailwind", "Framer Motion"],
+    code: "https://github.com/gaherrera00/barbearia-g2-sistema",
+    demo: "https://barbearia-g2-sistema.vercel.app/",
+    image: "/project-barbearia.png",
+  },
+  {
+    title: "Sistema Integrador Restaurante",
+    description:
+      "Aplicação PHP/MySQL com CRUD completo para gestão de dados de um restaurante, focada em organização e usabilidade.",
+    stack: ["PHP", "MySQL"],
+    code: "https://github.com/gaherrera00/sistema-integrador-restaurante",
+    demo: "https://github.com/gaherrera00/sistema-integrador-restaurante",
+    image: "/project-restaurante.png",
   },
 ];
 
