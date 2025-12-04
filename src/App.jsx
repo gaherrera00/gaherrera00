@@ -86,15 +86,11 @@ const socials = {
   email: "mailto:gabriel.h.demarchi@gmail.com",
 };
 
-// 🌑 Gradiente escuro original
 const gradientBgDark =
   "bg-[radial-gradient(circle_at_10%_20%,rgba(124,93,255,0.16),transparent_25%),_radial-gradient(circle_at_90%_10%,rgba(34,211,238,0.18),transparent_30%),_linear-gradient(120deg,#0c1021,#0a0e1b,#0c1021)]";
 
-// ☀️ Gradiente claro equivalente
 const gradientBgLight =
   "bg-[radial-gradient(circle_at_20%_20%,rgba(124,93,255,0.08),transparent_25%),_radial-gradient(circle_at_80%_0%,rgba(34,211,238,0.12),transparent_30%),_linear-gradient(120deg,#f7f9fc,#eef1f7,#f7f9fc)]";
-
-/* ========= ICONES SVG MINIMALISTAS (stroke 2) ========= */
 
 const IconBase = ({ children, className = "", ...props }) => (
   <svg
@@ -131,7 +127,6 @@ const IconMoon = (props) => (
     <path d="M21 12.79A9 9 0 0 1 11.21 3 7 7 0 1 0 21 12.79Z" />
   </IconBase>
 );
-
 const IconGithub = (props) => (
   <IconBase {...props}>
     <path d="M9 19c-4 1-4-2-6-2" />
@@ -169,8 +164,6 @@ const IconLink = (props) => (
   </IconBase>
 );
 
-/* ========= HOOKS ========= */
-
 function useTypingEffect(strings, speed = 120, pause = 1200) {
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
@@ -202,7 +195,6 @@ function useTypingEffect(strings, speed = 120, pause = 1200) {
   return text;
 }
 
-// 🌗 Tema: inicia sempre no dark e guarda no localStorage
 function useTheme() {
   const [theme, setTheme] = useState("dark");
 
@@ -225,8 +217,6 @@ function useTheme() {
   return [theme, setTheme];
 }
 
-/* ========= APP ========= */
-
 export default function App() {
   const [theme, setTheme] = useTheme();
   const isDark = theme === "dark";
@@ -248,7 +238,7 @@ export default function App() {
       <div className="mx-auto max-w-6xl px-4 pb-16">
         {/* HEADER */}
         <header className="sticky top-0 z-50 backdrop-blur bg-white/60 dark:bg-black/30 border-b border-black/10 dark:border-white/10 rounded-b-xl">
-          <div className="flex items-center justify-around py-4 ">
+          <div className="flex flex-wrap gap-4 items-center justify-between py-4 px-4 md:px-8">
             <div className="flex items-center gap-2">
               <div className="h-10 w-10 rounded-2xl bg-gradient-to-br from-primary to-secondary shadow-glow" />
               <div>
@@ -259,7 +249,7 @@ export default function App() {
               </div>
             </div>
 
-            <nav className="flex items-center gap-4 text-sm font-medium">
+            <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 text-sm font-medium">
               {["home", "about", "projects", "contact"].map((id) => (
                 <button
                   key={id}
@@ -292,7 +282,7 @@ export default function App() {
           {/* HOME */}
           <section
             id="home"
-            className="grid gap-10 pt-10 lg:grid-cols-2 lg:items-center"
+            className="grid gap-10 pt-10 md:pt-16 md:gap-14 lg:grid-cols-2 lg:items-center"
           >
             <div className="space-y-6">
               <p className="uppercase tracking-[0.3em] text-secondary text-xs">
@@ -303,6 +293,7 @@ export default function App() {
                 <span className="text-secondary">Gabriel Herrera Demarchi</span>{" "}
                 —<span className="block text-primary">{typed || "\u00a0"}</span>
               </h1>
+
               <p className="text-slate-600 dark:text-slate-300 text-lg">
                 Desenvolvedor full-stack em formação, focado em experiências
                 simples, rápidas e funcionais. Busco uma oportunidade de estágio
@@ -346,7 +337,8 @@ export default function App() {
               </div>
             </div>
 
-            <div className="relative">
+            {/* FOTO */}
+            <div className="relative mt-6 md:mt-0">
               <div className="relative overflow-hidden rounded-[40px] border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6 shadow-glow">
                 <img
                   src="/profile.png"
@@ -372,14 +364,15 @@ export default function App() {
           {/* SOBRE */}
           <section
             id="about"
-            className="rounded-3xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-8 shadow-glow"
+            className="rounded-3xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6 md:p-10 shadow-glow"
           >
-            <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+            <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
               <div className="max-w-2xl space-y-4">
                 <p className="text-secondary uppercase tracking-[0.2em] text-xs">
                   Quem sou
                 </p>
                 <h2 className="text-3xl font-semibold">Sobre mim</h2>
+
                 <p className="text-slate-600 dark:text-slate-300">
                   Sou Gabriel, desenvolvedor em formação e apaixonado por
                   resolver problemas reais com código. Gosto de unir design
@@ -387,6 +380,7 @@ export default function App() {
                   construir experiências digitais que sejam memoráveis e fáceis
                   de usar.
                 </p>
+
                 <div className="flex flex-wrap gap-2">
                   {[
                     "Curioso",
@@ -406,6 +400,7 @@ export default function App() {
 
               <div className="w-full max-w-md space-y-4">
                 <h3 className="font-semibold text-lg">Habilidades</h3>
+
                 <div className="space-y-3">
                   {skills.map(({ name, level }) => (
                     <div key={name} className="space-y-1">
@@ -413,6 +408,7 @@ export default function App() {
                         <span>{name}</span>
                         <span>{level}%</span>
                       </div>
+
                       <div className="h-2 rounded-full bg-black/10 dark:bg-white/10">
                         <div
                           className="h-2 rounded-full bg-gradient-to-r from-primary to-secondary"
@@ -440,11 +436,11 @@ export default function App() {
               </p>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
               {projects.map((project) => (
                 <article
                   key={project.title}
-                  className="group flex flex-col rounded-3xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-5 shadow-glow transition hover:-translate-y-1 hover:border-secondary/40"
+                  className="group flex flex-col rounded-3xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-5 sm:p-6 shadow-glow transition hover:-translate-y-1 hover:border-secondary/40"
                 >
                   <div className="overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-black/20">
                     <img
@@ -453,9 +449,11 @@ export default function App() {
                       className="w-full transition duration-500 group-hover:scale-[1.03]"
                     />
                   </div>
+
                   <div className="mt-4 space-y-3">
                     <div className="flex items-center justify-between gap-3">
                       <h3 className="text-xl font-semibold">{project.title}</h3>
+
                       <span className="rounded-full bg-black/5 dark:bg-white/10 px-3 py-1 text-xs text-slate-900 dark:text-slate-200">
                         {project.stack[0]}
                       </span>
@@ -513,14 +511,16 @@ export default function App() {
           {/* CONTATO */}
           <section
             id="contact"
-            className="rounded-3xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-8 shadow-glow"
+            className="rounded-3xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6 md:p-10 shadow-glow"
           >
             <div className="grid gap-8 lg:grid-cols-2">
               <div className="space-y-4">
                 <p className="text-secondary uppercase tracking-[0.2em] text-xs">
                   Vamos conversar
                 </p>
+
                 <h2 className="text-3xl font-semibold">Contato</h2>
+
                 <p className="text-slate-600 dark:text-slate-300">
                   Estou aberto para estágios, freelas e colaborações. Me conte
                   sobre a oportunidade e vamos construir algo marcante juntos.
@@ -628,7 +628,7 @@ export default function App() {
         </main>
 
         {/* FOOTER */}
-        <footer className="mt-12 flex flex-col items-center gap-2 border-t border-black/10 dark:border-white/10 py-6 text-sm text-slate-600 dark:text-slate-400">
+        <footer className="mt-12 flex flex-col items-center gap-4 text-center px-4 border-t border-black/10 dark:border-white/10 py-6 text-sm text-slate-600 dark:text-slate-400">
           <p>
             © {new Date().getFullYear()} Gabriel Herrera Demarchi. Todos os
             direitos reservados.
@@ -644,6 +644,7 @@ export default function App() {
               <IconGithub />
               <span>GitHub</span>
             </a>
+
             <a
               className="inline-flex items-center gap-2 hover:text-secondary"
               href={socials.linkedin}
@@ -653,6 +654,7 @@ export default function App() {
               <IconLinkedIn />
               <span>LinkedIn</span>
             </a>
+
             <a
               className="inline-flex items-center gap-2 hover:text-secondary"
               href={socials.email}
