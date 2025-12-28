@@ -36,6 +36,15 @@ const projects = [
     image: "/project-doceriajae.png",
   },
   {
+    title: "Dashboard de Vendas E-commerce",
+    description:
+      "Dashboard interativo para análise de vendas com KPIs em tempo real, 6 visualizações dinâmicas, filtros avançados e métricas de negócio. Processamento de 14.000+ transações com validação automática de dados.",
+    stack: ["Python", "Streamlit", "Plotly", "Pandas"],
+    code: "https://github.com/gaherrera00/dashboard-vendas-ecommerce",
+    demo: "https://dashboardvendas-maojhuep7h2gpxl8sjfkhf.streamlit.app",
+    image: "/project-dashboard.png",
+  },
+  {
     title: "Zelus Assistência Técnica",
     description:
       "Site responsivo em React e Tailwind para uma assistência técnica, com foco em clareza das informações e contato rápido.",
@@ -69,15 +78,6 @@ const projects = [
     code: "https://github.com/gaherrera00/barbearia-g2-sistema",
     demo: "https://barbearia-g2-sistema.vercel.app/",
     image: "/project-barbearia.png",
-  },
-  {
-    title: "Dashboard de Vendas E-commerce",
-    description:
-      "Dashboard interativo para análise de vendas com KPIs em tempo real, 6 visualizações dinâmicas, filtros avançados e métricas de negócio. Processamento de 14.000+ transações com validação automática de dados.",
-    stack: ["Python", "Streamlit", "Plotly", "Pandas"],
-    code: "https://github.com/gaherrera00/dashboard-vendas-ecommerce",
-    demo: "https://dashboardvendas-maojhuep7h2gpxl8sjfkhf.streamlit.app",
-    image: "/project-dashboard-vendas.png",
   },
 ];
 
@@ -232,8 +232,9 @@ export default function App() {
 
   return (
     <div
-      className={`min-h-screen transition-colors duration-300 ${isDark ? gradientBgDark : gradientBgLight
-        } text-slate-900 dark:text-slate-100`}
+      className={`min-h-screen transition-colors duration-300 ${
+        isDark ? gradientBgDark : gradientBgLight
+      } text-slate-900 dark:text-slate-100`}
     >
       <div className="mx-auto max-w-6xl px-4 pb-16">
         {/* HEADER */}
@@ -259,10 +260,10 @@ export default function App() {
                   {id === "home"
                     ? "Início"
                     : id === "about"
-                      ? "Sobre"
-                      : id === "projects"
-                        ? "Projetos"
-                        : "Contato"}
+                    ? "Sobre"
+                    : id === "projects"
+                    ? "Projetos"
+                    : "Contato"}
                 </button>
               ))}
 
