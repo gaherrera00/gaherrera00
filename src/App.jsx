@@ -229,6 +229,7 @@ export default function App() {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div
@@ -237,46 +238,134 @@ export default function App() {
       } text-slate-900 dark:text-slate-100`}
     >
       <div className="mx-auto max-w-6xl px-4 pb-16">
-        {/* HEADER */}
-        <header className="sticky top-0 z-50 backdrop-blur bg-white/60 dark:bg-black/30 border-b border-black/10 dark:border-white/10 rounded-b-xl">
-          <div className="flex flex-wrap gap-4 items-center justify-between py-4 px-4 md:px-8">
-            <div className="flex items-center gap-2">
-              <div className="h-10 w-10 rounded-2xl bg-gradient-to-br from-primary to-secondary shadow-glow" />
-              <div>
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  Portfólio
-                </p>
-                <p className="font-semibold">Gabriel Herrera Demarchi</p>
-              </div>
+        {/* ===== HEADER / NAV ===== */}
+        <header className="sticky top-0 z-50 bg-white/85 dark:bg-black/85 backdrop-blur-md rounded-b-lg border-gray-200 dark:border-gray-800">
+          <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary shadow-md" />
+              <span className="font-semibold text-lg">Gabriel Herrera</span>
             </div>
 
-            <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 text-sm font-medium">
+            {/* Desktop: Links + Tema */}
+            <div className="hidden md:flex items-center gap-6">
               {["home", "about", "projects", "contact"].map((id) => (
                 <button
                   key={id}
-                  className="rounded-full px-3 py-2 text-slate-700 dark:text-slate-200 hover:bg-black/10 dark:hover:bg-white/10 transition"
                   onClick={() => handleScroll(id)}
+                  className="px-4 py-2 text-sm font-medium rounded-full transition hover:bg-black/10 dark:hover:bg-white/10 hover:text-primary"
                 >
                   {id === "home"
                     ? "Início"
-                    : id === "about"
-                    ? "Sobre"
-                    : id === "projects"
-                    ? "Projetos"
-                    : "Contato"}
+                    : id.charAt(0).toUpperCase() + id.slice(1)}
                 </button>
               ))}
 
               <button
                 aria-label="Alternar tema"
-                className="rounded-full border border-black/20 dark:border-white/20 p-2 hover:bg-black/10 dark:hover:bg-white/10 flex items-center justify-center"
                 onClick={() => setTheme(isDark ? "light" : "dark")}
+                className="p-2.5 rounded-full border border-black/20 dark:border-white/20 hover:bg-black/10 dark:hover:bg-white/10"
               >
-                {isDark ? <IconSun /> : <IconMoon />}
+                {isDark ? (
+                  <IconSun className="h-5 w-5" />
+                ) : (
+                  <IconMoon className="h-5 w-5" />
+                )}
               </button>
-            </nav>
+            </div>
+
+            {/* Mobile: Tema + Hamburger */}
+            <div className="md:hidden flex items-center gap-3">
+              <button
+                aria-label="Alternar tema"
+                onClick={() => setTheme(isDark ? "light" : "dark")}
+                className="p-2.5 rounded-full hover:bg-black/10 dark:hover:bg-white/10"
+              >
+                {isDark ? (
+                  <IconSun className="h-5 w-5" />
+                ) : (
+                  <IconMoon className="h-5 w-5" />
+                )}
+              </button>
+
+              <button
+                aria-label="Abrir menu"
+                onClick={() => setIsMobileMenuOpen(true)}
+                className="p-2 rounded-lg hover:bg-black/10 dark:hover:bg-white/10"
+              >
+                <svg
+                  className="w-7 h-7"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </header>
+
+        {/* ===== MENU MOBILE ===== */}
+        {isMobileMenuOpen && (
+          <div
+            className="fixed inset-0 z-50 bg-black/60 md:hidden"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            <div
+              className="bg-white dark:bg-gray-900 w-full mt-auto rounded-t-3xl max-h-[75vh] overflow-y-auto shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Cabeçalho do menu */}
+              <div className="flex items-center justify-between p-5 border-b border-gray-200 dark:border-gray-800">
+                <span className="text-xl font-bold">Menu</span>
+                <button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
+                >
+                  <svg
+                    className="w-7 h-7"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2.5}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              {/* Itens do menu */}
+              <nav className="p-4 space-y-1">
+                {["home", "about", "projects", "contact"].map((id) => (
+                  <button
+                    key={id}
+                    onClick={() => {
+                      handleScroll(id);
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className="w-full text-left px-5 py-4 text-lg font-medium rounded-xl transition hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-primary active:bg-gray-200"
+                  >
+                    {id === "home"
+                      ? "Início"
+                      : id.charAt(0).toUpperCase() + id.slice(1)}
+                  </button>
+                ))}
+              </nav>
+
+              <div className="h-6" />
+            </div>
+          </div>
+        )}
 
         {/* MAIN */}
         <main className="space-y-16">
