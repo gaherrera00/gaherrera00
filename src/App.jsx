@@ -45,6 +45,15 @@ const projects = [
     image: "/project-dashboard.png",
   },
   {
+    title: "G2 Barbearia",
+    description:
+      "Plataforma web para gerenciamento operacional de uma barbearia, com foco em serviços, agenda e experiência do cliente.",
+    stack: ["Next.js", "Tailwind", "Framer Motion"],
+    code: "https://github.com/gaherrera00/barbearia-g2-sistema",
+    demo: "https://barbearia-g2-sistema.vercel.app/",
+    image: "/project-barbearia.png",
+  },
+  {
     title: "Zelus Assistência Técnica",
     description:
       "Site responsivo em React e Tailwind para uma assistência técnica, com foco em clareza das informações e contato rápido.",
@@ -69,15 +78,6 @@ const projects = [
     code: "https://github.com/gaherrera00/sistema-denuncias-urbanas",
     demo: "https://github.com/gaherrera00/sistema-denuncias-urbanas",
     image: "/project-denuncias-urbanas.png",
-  },
-  {
-    title: "G2 Barbearia",
-    description:
-      "Plataforma web para gerenciamento operacional de uma barbearia, com foco em serviços, agenda e experiência do cliente.",
-    stack: ["Next.js", "Tailwind", "Framer Motion"],
-    code: "https://github.com/gaherrera00/barbearia-g2-sistema",
-    demo: "https://barbearia-g2-sistema.vercel.app/",
-    image: "/project-barbearia.png",
   },
 ];
 
