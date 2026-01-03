@@ -18,13 +18,20 @@ const skills = [
 
 const projects = [
   {
-    title: "Dulcis Veneris (Fork)",
+    title: "Alerta Ambiental",
     description:
-      "Fork de um projeto artístico voltado a uma chocolateria, explorando animações e experiência visual criativa.",
-    stack: ["JavaScript"],
-    code: "https://github.com/gaherrera00/dulcis.veneris",
-    demo: "https://github.com/gaherrera00/dulcis.veneris",
-    image: "/project-dulcis.png",
+      "Sistema de monitoramento climático e ambiental em tempo real que analisa temperatura, umidade, qualidade do ar (PM2.5, PM10, AQI), índice UV e velocidade do vento. Fornece alertas de risco à saúde e recomendações personalizadas de cuidados para diferentes condições ambientais.",
+    stack: [
+      "Python",
+      "Streamlit",
+      "OpenWeather API",
+      "Open-Meteo API",
+      "REST API",
+      "python-dotenv",
+    ],
+    code: "https://github.com/gaherrera00/alerta-ambiental",
+    demo: "https://alerta-ambiental-3r9phucbyvoenqpatxxsvm.streamlit.app/",
+    image: "/project-alearta-ambiental.png",
   },
   {
     title: "Doceria Jae",
@@ -45,6 +52,15 @@ const projects = [
     image: "/project-dashboard.png",
   },
   {
+    title: "Dulcis Veneris (Fork)",
+    description:
+      "Fork de um projeto artístico voltado a uma chocolateria, explorando animações e experiência visual criativa.",
+    stack: ["JavaScript"],
+    code: "https://github.com/gaherrera00/dulcis.veneris",
+    demo: "https://github.com/gaherrera00/dulcis.veneris",
+    image: "/project-dulcis.png",
+  },
+  {
     title: "G2 Barbearia",
     description:
       "Plataforma web para gerenciamento operacional de uma barbearia, com foco em serviços, agenda e experiência do cliente.",
@@ -61,23 +77,6 @@ const projects = [
     code: "https://github.com/gaherrera00/zelus-assistencia-tecnica",
     demo: "https://github.com/gaherrera00/zelus-assistencia-tecnica",
     image: "/project-zelus.png",
-  },
-  {
-    title: "Sistema de Reporte de Ocorrências Urbanas",
-    description:
-      "Plataforma web para registro e acompanhamento de problemas urbanos, permitindo descrição, foto e localização via geolocalização. Desenvolvido para facilitar a comunicação entre cidadãos e gestão pública.",
-    stack: [
-      "React.js",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "REST API",
-      "JWT",
-      "AWS",
-    ],
-    code: "https://github.com/gaherrera00/sistema-denuncias-urbanas",
-    demo: "https://github.com/gaherrera00/sistema-denuncias-urbanas",
-    image: "/project-denuncias-urbanas.png",
   },
 ];
 
