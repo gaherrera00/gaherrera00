@@ -50,8 +50,8 @@ Projetos práticos focados em análise, visualização e tomada de decisão. Tod
 | Projeto | Descrição | Tecnologias | Link |
 | :--- | :--- | :--- | :--- |
 | **📊 Dashboard Climático** | Análise de dados ambientais com foco em riscos à saúde e visualização clara em dashboard interativo. | Python, Pandas, Streamlit, API | [Ver no GitHub](https://github.com/gaherrera00/dashboard-climatico) |
-| **🧠 Projeto Integrador** | Coleta, organização e análise de dados de um sistema real, culminando em um relatório de insights. | Python, SQL, MySQL | [Ver no GitHub](https://github.com/gaherrera00/projeto-integrador) |
-| **📇 Análise de Registros** | Limpeza, exploração e geração de insights a partir de um grande volume de dados brutos. | Python, Pandas | [Ver no GitHub](https://github.com/gaherrera00/analise-registros) |
+| **🧠 Vendas Ecommerce** | Análise de dados via cvs resultando uma visualização clara de lucro | Python, CSV, Excel | [Ver no GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
+| **📇 Automacao De Relatorios** | Otimização de relatórios com rápida exportação para Excel e PDF | Python, Pandas | [Ver no GitHub](https://github.com/gaherrera00/automacao_relatorios) |
 
 ---
 
