@@ -6,30 +6,17 @@
 
 <p align="center">
   📊 <strong>Estudante de Análise de Dados</strong><br>
-  🔹 Python • SQL • Análise Exploratória • Dashboards<br>
-  🎯 Transformo dados brutos em **informação clara e acionável** para apoiar a tomada de decisões estratégicas.
+  Python • SQL • Pandas • Dashboards<br>
+  Transformo dados brutos em insights claros para apoiar decisões.
 </p>
-
----
-
-## 🧠 Mentalidade em Dados
-
-Minha abordagem em análise é guiada por princípios que garantem a relevância e a qualidade dos insights gerados:
-
-*   **Entender o problema antes do gráfico:** Foco na questão de negócio ou pesquisa antes de qualquer visualização.
-*   **Limpar e organizar dados com critério:** Garantir a integridade e confiabilidade dos dados é o primeiro passo.
-*   **Priorizar clareza sobre complexidade:** A comunicação dos resultados deve ser simples e direta.
-*   **Gerar insights acionáveis, não apenas números:** O objetivo final é a mudança e a melhoria baseada em evidências.
 
 <p align="center">
-  <i>“Dados bem analisados contam histórias melhores que opiniões.”</i>
+  <img src="https://githubcard.com/gaherrera00.svg?d=ZiZxgCXa" width="800" />
 </p>
 
 ---
 
-## 🧩 Stack de Análise de Dados
-
-Ferramentas e tecnologias que utilizo para transformar dados em valor:
+## 🧩 Stack de Dados
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=3776AB" />
@@ -45,13 +32,11 @@ Ferramentas e tecnologias que utilizo para transformar dados em valor:
 
 ## 🌟 Projetos em Destaque
 
-Projetos práticos focados em análise, visualização e tomada de decisão. Todos incluem Análise Exploratória (EDA), tratamento de dados e visualização orientada a insight.
-
-| Projeto | Descrição | Tecnologias | Link |
-| :--- | :--- | :--- | :--- |
-| **📊 Dashboard Climático** | Análise de dados ambientais com foco em riscos à saúde e visualização clara em dashboard interativo. | Python, Pandas, Streamlit, API | [Ver no GitHub](https://github.com/gaherrera00/dashboard-climatico) |
-| **🧠 Vendas Ecommerce** | Análise de dados via cvs resultando uma visualização clara de lucro | Python, CSV, Excel | [Ver no GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
-| **📇 Automacao De Relatorios** | Otimização de relatórios com rápida exportação para Excel e PDF | Python, Pandas | [Ver no GitHub](https://github.com/gaherrera00/automacao_relatorios) |
+| Projeto | O que resolve | Tecnologias | Link |
+|------|-------------|------------|------|
+| **📊 Dashboard Climático** | Análise de dados ambientais com foco em riscos à saúde e visualização interativa. | Python, Pandas, Streamlit, API | [GitHub](https://github.com/gaherrera00/dashboard-climatico) |
+| **🧠 Vendas E-commerce** | Análise de vendas e lucro a partir de dados CSV, com dashboards para apoio à decisão. | Python, Pandas, Excel | [GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
+| **📇 Automação de Relatórios** | Geração automática de relatórios com exportação para Excel e PDF. | Python, Pandas | [GitHub](https://github.com/gaherrera00/automacao_relatorios) |
 
 ---
 
@@ -59,25 +44,16 @@ Projetos práticos focados em análise, visualização e tomada de decisão. Tod
 
 <p align="center">
   <a href="https://gaherrera00.vercel.app">
-    <img src="https://img.shields.io/badge/Visitar%20Portf%C3%B3lio-000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Visitar%20Portfólio-000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
 ---
 
-## 📈 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gaherrera00&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&text_color=333333&icon_color=0077B5&line_height=25" width="48%" alt="Estatísticas do GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaherrera00&layout=compact&theme=transparent&hide_border=true&title_color=0077B5&text_color=333333&line_height=25" width="48%" alt="Linguagens Mais Usadas" />
-</div>
-
----
-
-## 📫 Contato e Oportunidades
+## 📫 Contato
 
 <p align="center">
-  Buscando estágio em Análise de Dados • Aberto a aprendizado e desafios reais
+  Buscando estágio em Análise de Dados • Disponível para desafios reais
 </p>
 
 <div align="center">
