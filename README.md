@@ -31,15 +31,11 @@ Estudante de Análise e Desenvolvimento de Sistemas no SENAI, com formação té
 
 ## 🌟 Projetos em Destaque
 
-| Projeto | O que resolve  | Link |
-|------|-------------|------------|------|
-|**🌦️ Alerta Ambiental**
-Aplicação em Python e Streamlit que integra APIs meteorológicas e ambientais para apresentar condições do clima, qualidade do ar e índice UV. Organizei o projeto para consultar dados, avaliar condições e exibir alertas e recomendações informativas. [GitHub](https://github.com/gaherrera00/dashboard-climatico) |
-| ** 📊 Dashboard de vendas de e-commerce**
-Dashboard interativo desenvolvido com Python, Pandas, Streamlit e Plotly. Implementei tratamento e validação dos dados, indicadores de receita e lucratividade, filtros e visualizações por dimensões comerciais. O arquivo de dados disponível no repositório contém 3.000 registros; | [GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
-| 
-**⚙️ Automação de relatórios**
-Rotina em Python para ler e validar arquivos CSV, calcular indicadores e gerar relatórios em Excel e PDF. Complementa o dashboard ao demonstrar processamento automatizado e preparação de entregáveis. | [GitHub](https://github.com/gaherrera00/automacao_relatorios) |
+| Projeto | O que resolve | Link |
+|---|---|---|
+| **🌦️ Alerta Ambiental** | Aplicação em Python e Streamlit que integra APIs meteorológicas e ambientais para apresentar condições climáticas, qualidade do ar e índice UV. Consulta dados, avalia condições e exibe alertas e recomendações informativas. | [GitHub](https://github.com/gaherrera00/dashboard-climatico) |
+| **📊 Dashboard de vendas de e-commerce** | Dashboard interativo desenvolvido com Python, Pandas, Streamlit e Plotly. Inclui tratamento e validação de dados, indicadores de receita e lucratividade, filtros e visualizações por dimensões comerciais. O arquivo de dados disponível no repositório contém 3.000 registros. | [GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
+| **⚙️ Automação de relatórios** | Rotina em Python para ler e validar arquivos CSV, calcular indicadores e gerar relatórios em Excel e PDF, demonstrando processamento automatizado de dados e geração de entregáveis. | [GitHub](https://github.com/gaherrera00/automacao_relatorios) |
 
 ## 🚀 Portfólio Completo
 
