@@ -5,10 +5,9 @@
 </p>
 
 <p align="center">
-  📊 <strong>Estudante de Análise de Dados</strong><br>
-  Python • SQL • Pandas • Dashboards<br>
-  Transformo dados brutos em insights claros para apoiar decisões.
-</p>
+ Estágio em Dados e Analytics · Python · Desenvolvimento de software
+Estudante de Análise e Desenvolvimento de Sistemas no SENAI, com formação técnica em Desenvolvimento de Sistemas. Desenvolvo projetos de preparação e análise de dados, dashboards e automação de relatórios com Python. Minha base em desenvolvimento de software complementa essa atuação com aplicações web e integração de APIs.
+</p>  
 
 <p align="center">
   <img src="https://githubcard.com/gaherrera00.svg?d=ZiZxgCXa" width="800" />
@@ -32,13 +31,15 @@
 
 ## 🌟 Projetos em Destaque
 
-| Projeto | O que resolve | Tecnologias | Link |
+| Projeto | O que resolve  | Link |
 |------|-------------|------------|------|
-| **📊 Dashboard Climático** | Análise de dados ambientais com foco em riscos à saúde e visualização interativa. | Python, Pandas, Streamlit, API | [GitHub](https://github.com/gaherrera00/dashboard-climatico) |
-| **🧠 Vendas E-commerce** | Análise de vendas e lucro a partir de dados CSV, com dashboards para apoio à decisão. | Python, Pandas, Excel | [GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
-| **📇 Automação de Relatórios** | Geração automática de relatórios com exportação para Excel e PDF. | Python, Pandas | [GitHub](https://github.com/gaherrera00/automacao_relatorios) |
-
----
+|**🌦️ Alerta Ambiental**
+Aplicação em Python e Streamlit que integra APIs meteorológicas e ambientais para apresentar condições do clima, qualidade do ar e índice UV. Organizei o projeto para consultar dados, avaliar condições e exibir alertas e recomendações informativas. [GitHub](https://github.com/gaherrera00/dashboard-climatico) |
+| ** 📊 Dashboard de vendas de e-commerce**
+Dashboard interativo desenvolvido com Python, Pandas, Streamlit e Plotly. Implementei tratamento e validação dos dados, indicadores de receita e lucratividade, filtros e visualizações por dimensões comerciais. O arquivo de dados disponível no repositório contém 3.000 registros; | [GitHub](https://github.com/gaherrera00/dashboard-vendas-ecommerce) |
+| 
+**⚙️ Automação de relatórios**
+Rotina em Python para ler e validar arquivos CSV, calcular indicadores e gerar relatórios em Excel e PDF. Complementa o dashboard ao demonstrar processamento automatizado e preparação de entregáveis. | [GitHub](https://github.com/gaherrera00/automacao_relatorios) |
 
 ## 🚀 Portfólio Completo
 
@@ -64,3 +65,6 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </div>
+
+
+Liderança e acompanhamento de aproximadamente 25 integrantes, distribuição de tarefas e coordenação de atividades e rotinas. Recebi o Certificado de Destaque do Mês de agosto de 2026.
