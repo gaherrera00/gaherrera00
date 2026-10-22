@@ -235,18 +235,13 @@
     }
 
     .monogram {
-      width: 76px;
-      height: 76px;
-      display: grid;
-      place-items: center;
-      margin-bottom: 20px;
+      display: block;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto 20px;
       border: 1px solid rgba(223, 150, 89, .48);
       border-radius: 50%;
-      color: var(--accent);
-      background: var(--accent-dark);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.7rem;
-      letter-spacing: -.06em;
+      object-fit: cover;
     }
 
     .profile-card p {
@@ -702,7 +697,7 @@
         </div>
 
         <aside class="profile-card" aria-label="Resumo profissional">
-          <div class="monogram" aria-hidden="true">GH</div>
+          <img class="monogram" src="./public/profile.png" alt="Foto de Gabriel Herrera Demarchi">
           <p>Base<strong>São Caetano do Sul, SP</strong></p>
           <p>Foco<strong>Dados e Analytics</strong></p>
           <p>Oportunidade<strong>Estágio em Dados ou Analytics</strong></p>
